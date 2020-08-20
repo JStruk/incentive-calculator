@@ -8,6 +8,9 @@ const purgecss = postcssPurgecss({
   content: [
     './public/**/*.html',
     './src/**/*.vue',
+    './src/App.vue',
+    './src/views/*.vue',
+    './src/components/*.vue',
   ],
   // Include any special characters you're using in this regular expression.
   // See: https://tailwindcss.com/docs/controlling-file-size/#understanding-the-regex
